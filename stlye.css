@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header, footer {
+    background: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 1em;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+  }
+  
+  @media (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 0.5em 0;
+    }
+  }
+  
